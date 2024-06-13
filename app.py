@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, origins=["https://genai.trailytics.com"])
 
 GOOGLE_API_KEY = "AIzaSyC8VSPGQu2pyXz0vMHVoFTCMmFMBJ7nXPk"
 genai.configure(api_key=GOOGLE_API_KEY)
